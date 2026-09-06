@@ -1,0 +1,902 @@
+[
+  {
+    "question_id": "eval_q_001",
+    "question": "How do I troubleshoot and resolve Windows Laptop Slow Performance & WinDbg Memory Dump Diagnostics in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "medium",
+    "topic_key": "slow_laptop_windbg"
+  },
+  {
+    "question_id": "eval_q_002",
+    "question": "How do I troubleshoot and resolve Windows Update Servicing Failure 0x80070002 & DISM Component Repair in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "hard",
+    "topic_key": "windows_update_dism"
+  },
+  {
+    "question_id": "eval_q_003",
+    "question": "How do I troubleshoot and resolve Windows Wi-Fi Adapter WLAN Report & TCP/IP Winsock Reset Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "easy",
+    "topic_key": "wifi_adapter_winsock"
+  },
+  {
+    "question_id": "eval_q_004",
+    "question": "How do I troubleshoot and resolve Windows Bluetooth Peripheral Driver Code 43 & Radio Reset in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "medium",
+    "topic_key": "bluetooth_code43_reset"
+  },
+  {
+    "question_id": "eval_q_005",
+    "question": "How do I troubleshoot and resolve Windows Keyboard/Mouse HID Filter Keys & Power Selective Suspend in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "hard",
+    "topic_key": "keyboard_mouse_hid_power"
+  },
+  {
+    "question_id": "eval_q_006",
+    "question": "How do I troubleshoot and resolve Windows Multi-Monitor Dock DisplayPort Alt-Mode GPU Driver Crash in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "easy",
+    "topic_key": "multimonitor_gpu_crash"
+  },
+  {
+    "question_id": "eval_q_007",
+    "question": "How do I troubleshoot and resolve Windows Storage Volume Disk Space Cleanup & TreeSize Analysis in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "medium",
+    "topic_key": "storage_disk_cleanup"
+  },
+  {
+    "question_id": "eval_q_008",
+    "question": "How do I troubleshoot and resolve Windows BitLocker TPM 2.0 Provisioning & Recovery Key Escrow in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "hard",
+    "topic_key": "bitlocker_tpm_recovery"
+  },
+  {
+    "question_id": "eval_q_009",
+    "question": "How do I troubleshoot and resolve Windows Subsystem for Linux (WSL2) Kernel Update & VHDX Shrink in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "easy",
+    "topic_key": "wsl2_kernel_vhdx"
+  },
+  {
+    "question_id": "eval_q_010",
+    "question": "How do I troubleshoot and resolve Windows User Profile Service Logon Failure & Registry Hive Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_client",
+    "difficulty": "medium",
+    "topic_key": "user_profile_registry_fix"
+  },
+  {
+    "question_id": "eval_q_011",
+    "question": "How do I troubleshoot and resolve Active Directory Domain Controller SYSVOL Replication Failure (DFSR) in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "hard",
+    "topic_key": "ad_sysvol_dfsr_failure"
+  },
+  {
+    "question_id": "eval_q_012",
+    "question": "How do I troubleshoot and resolve Kerberos Authentication Ticket Expiration & SPN Registration Failure in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "easy",
+    "topic_key": "kerberos_spn_failure"
+  },
+  {
+    "question_id": "eval_q_013",
+    "question": "How do I troubleshoot and resolve Group Policy Object (GPO) Processing Failure & gpresult Analysis in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "medium",
+    "topic_key": "gpo_processing_gpresult"
+  },
+  {
+    "question_id": "eval_q_014",
+    "question": "How do I troubleshoot and resolve DNS Server Zone Transfer Failure & Scavenging Resolution in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "hard",
+    "topic_key": "dns_zone_scavenging"
+  },
+  {
+    "question_id": "eval_q_015",
+    "question": "How do I troubleshoot and resolve DHCP Relay Agent Subnet Exhaustion & Scope Exclusion in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "easy",
+    "topic_key": "dhcp_relay_exhaustion"
+  },
+  {
+    "question_id": "eval_q_016",
+    "question": "How do I troubleshoot and resolve Active Directory FSMO Role Seizure & Metadata Cleanup Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "medium",
+    "topic_key": "ad_fsmo_seizure_cleanup"
+  },
+  {
+    "question_id": "eval_q_017",
+    "question": "How do I troubleshoot and resolve Windows Server Failover Clustering (WSFC) Quorum Witness Failure in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "hard",
+    "topic_key": "wsfc_quorum_witness"
+  },
+  {
+    "question_id": "eval_q_018",
+    "question": "How do I troubleshoot and resolve Hyper-V Virtual Machine Live Migration & Network Switch Failure in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "easy",
+    "topic_key": "hyperv_live_migration"
+  },
+  {
+    "question_id": "eval_q_019",
+    "question": "How do I troubleshoot and resolve Storage Spaces Direct (S2D) Disk Pool Degradation & Retirement in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "medium",
+    "topic_key": "s2d_disk_pool_repair"
+  },
+  {
+    "question_id": "eval_q_020",
+    "question": "How do I troubleshoot and resolve Windows Server NPS / RADIUS 802.1X Certificate Trust Verification in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "windows_server",
+    "difficulty": "hard",
+    "topic_key": "nps_radius_cert_trust"
+  },
+  {
+    "question_id": "eval_q_021",
+    "question": "How do I troubleshoot and resolve Exchange Online Mail Flow Transport Rules & DMARC/SPF Diagnostic in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "easy",
+    "topic_key": "exchange_mailflow_dmarc"
+  },
+  {
+    "question_id": "eval_q_022",
+    "question": "How do I troubleshoot and resolve Outlook OST Data File Corruption & Exchange AutoDiscover Failure in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "medium",
+    "topic_key": "outlook_ost_autodiscover"
+  },
+  {
+    "question_id": "eval_q_023",
+    "question": "How do I troubleshoot and resolve Microsoft Teams Direct Routing SIP Trunk Audio Quality Drop in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "hard",
+    "topic_key": "teams_sip_audio_drop"
+  },
+  {
+    "question_id": "eval_q_024",
+    "question": "How do I troubleshoot and resolve Microsoft Defender for M365 Automated Investigation & Response in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "easy",
+    "topic_key": "defender_m365_air_triage"
+  },
+  {
+    "question_id": "eval_q_025",
+    "question": "How do I troubleshoot and resolve Microsoft Intune Autopilot OOBE Device Enrollment Failure in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "medium",
+    "topic_key": "intune_autopilot_oobe"
+  },
+  {
+    "question_id": "eval_q_026",
+    "question": "How do I troubleshoot and resolve Entra ID Conditional Access Device Compliance Block (AADSTS53000) in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "hard",
+    "topic_key": "entra_conditional_access_block"
+  },
+  {
+    "question_id": "eval_q_027",
+    "question": "How do I troubleshoot and resolve Microsoft 365 Self-Service Password Reset (SSPR) Writeback Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "easy",
+    "topic_key": "m365_sspr_writeback_fix"
+  },
+  {
+    "question_id": "eval_q_028",
+    "question": "How do I troubleshoot and resolve SharePoint / OneDrive Client Sync Engine Lock & Cache Reset in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "medium",
+    "topic_key": "onedrive_sync_engine_reset"
+  },
+  {
+    "question_id": "eval_q_029",
+    "question": "How do I troubleshoot and resolve Entra Connect Password Hash Sync (PHS) Resynchronization Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "hard",
+    "topic_key": "entra_connect_phs_sync"
+  },
+  {
+    "question_id": "eval_q_030",
+    "question": "How do I troubleshoot and resolve FIDO2 WebAuthn Security Key Registration & MFA Bypass Prevention in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "microsoft_365",
+    "difficulty": "easy",
+    "topic_key": "fido2_mfa_registration"
+  },
+  {
+    "question_id": "eval_q_031",
+    "question": "How do I troubleshoot and resolve Cisco Catalyst 802.1Q Trunking & Spanning Tree (RSTP) Topology Loop in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "medium",
+    "topic_key": "cisco_vlan_stp_loop"
+  },
+  {
+    "question_id": "eval_q_032",
+    "question": "How do I troubleshoot and resolve OSPFv2 Neighbor Adjacency Stuck in INIT/2WAY & MTU Mismatch in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "hard",
+    "topic_key": "ospf_neighbor_mtu_mismatch"
+  },
+  {
+    "question_id": "eval_q_033",
+    "question": "How do I troubleshoot and resolve BGP Autonomous System Peering Drop & Route Flapping Triage in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "easy",
+    "topic_key": "bgp_as_route_flapping"
+  },
+  {
+    "question_id": "eval_q_034",
+    "question": "How do I troubleshoot and resolve Cisco 802.1X Wireless EAP-TLS RADIUS Authentication Drop in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "medium",
+    "topic_key": "cisco_wlan_eaptls_drop"
+  },
+  {
+    "question_id": "eval_q_035",
+    "question": "How do I troubleshoot and resolve Cisco AnyConnect VPN DTLS Port 443 Tunnel Disconnection in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "hard",
+    "topic_key": "anyconnect_dtls_tunnel_drop"
+  },
+  {
+    "question_id": "eval_q_036",
+    "question": "How do I troubleshoot and resolve Palo Alto / Fortinet Firewall NAT Rule & Security Policy Drop in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "easy",
+    "topic_key": "firewall_nat_policy_drop"
+  },
+  {
+    "question_id": "eval_q_037",
+    "question": "How do I troubleshoot and resolve Wireshark TCP Retransmission & Zero Window Flow Control Analysis in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "medium",
+    "topic_key": "wireshark_tcp_zero_window"
+  },
+  {
+    "question_id": "eval_q_038",
+    "question": "How do I troubleshoot and resolve DNS Appliance Cache Poisoning & UDP Port 53 Firewall Block in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "hard",
+    "topic_key": "dns_appliance_cache_block"
+  },
+  {
+    "question_id": "eval_q_039",
+    "question": "How do I troubleshoot and resolve DHCP Option 43 / Option 60 AP Controller Discovery Failure in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "easy",
+    "topic_key": "dhcp_option43_discovery"
+  },
+  {
+    "question_id": "eval_q_040",
+    "question": "How do I troubleshoot and resolve QoS Differentiated Services (DSCP) Audio Packet Jitter Analysis in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "networking_cisco",
+    "difficulty": "medium",
+    "topic_key": "qos_dscp_audio_jitter"
+  },
+  {
+    "question_id": "eval_q_041",
+    "question": "How do I troubleshoot and resolve NIST SP 800-61 Incident Response Preparation & Containment Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "hard",
+    "topic_key": "nist_incident_response_lifecycle"
+  },
+  {
+    "question_id": "eval_q_042",
+    "question": "How do I troubleshoot and resolve Spear-Phishing Header Parsing & Malicious Link Sandboxing in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "easy",
+    "topic_key": "phishing_header_sandboxing"
+  },
+  {
+    "question_id": "eval_q_043",
+    "question": "How do I troubleshoot and resolve Ransomware Mass File Encryption Incident Containment Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "medium",
+    "topic_key": "ransomware_containment_protocol"
+  },
+  {
+    "question_id": "eval_q_044",
+    "question": "How do I troubleshoot and resolve LSASS Memory Dumping Triage & Mimikatz Credential Theft Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "hard",
+    "topic_key": "lsass_dumping_mimikatz_fix"
+  },
+  {
+    "question_id": "eval_q_045",
+    "question": "How do I troubleshoot and resolve Sysmon Event ID Log Analysis (IDs 1, 3, 7, 10, 11, 13) in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "easy",
+    "topic_key": "sysmon_event_log_analysis"
+  },
+  {
+    "question_id": "eval_q_046",
+    "question": "How do I troubleshoot and resolve Windows Security Event Log Brute-Force Audit (Events 4624/4625) in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "medium",
+    "topic_key": "windows_event_log_audit"
+  },
+  {
+    "question_id": "eval_q_047",
+    "question": "How do I troubleshoot and resolve Malicious Macro Excel File Payload Quarantine & Sandbox Inspection in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "hard",
+    "topic_key": "excel_macro_sandbox_quarantine"
+  },
+  {
+    "question_id": "eval_q_048",
+    "question": "How do I troubleshoot and resolve Active Directory Golden Ticket Attack Detection & KRBTGT Reset in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "easy",
+    "topic_key": "ad_golden_ticket_krbtgt_reset"
+  },
+  {
+    "question_id": "eval_q_049",
+    "question": "How do I troubleshoot and resolve Zero Trust Endpoint Host Posture Compliance Assessment in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "medium",
+    "topic_key": "zero_trust_host_posture"
+  },
+  {
+    "question_id": "eval_q_050",
+    "question": "How do I troubleshoot and resolve CSIRT Evidence Preservation & Forensic Disk Image Chain of Custody in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cybersecurity_soc",
+    "difficulty": "hard",
+    "topic_key": "csirt_forensic_chain_custody"
+  },
+  {
+    "question_id": "eval_q_051",
+    "question": "How do I troubleshoot and resolve RHEL 9 / Ubuntu 24.04 Systemd Unit Startup & Failed State Recovery in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "easy",
+    "topic_key": "systemd_unit_failed_recovery"
+  },
+  {
+    "question_id": "eval_q_052",
+    "question": "How do I troubleshoot and resolve Linux Logical Volume Manager (LVM) Volume Group Extension & XFS Grow in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "medium",
+    "topic_key": "lvm_vg_extend_xfs_grow"
+  },
+  {
+    "question_id": "eval_q_053",
+    "question": "How do I troubleshoot and resolve Linux NetworkManager nmcli IP Configuration & Bond Interface Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "hard",
+    "topic_key": "linux_nmcli_bond_interface"
+  },
+  {
+    "question_id": "eval_q_054",
+    "question": "How do I troubleshoot and resolve Linux FirewallD / UFW Rule Management & Port Forwarding Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "easy",
+    "topic_key": "linux_firewalld_ufw_rules"
+  },
+  {
+    "question_id": "eval_q_055",
+    "question": "How do I troubleshoot and resolve Linux SSH Hardening, RSA/Ed25519 Keys & PAM Module Lockdown in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "medium",
+    "topic_key": "linux_ssh_hardening_pam"
+  },
+  {
+    "question_id": "eval_q_056",
+    "question": "How do I troubleshoot and resolve SELinux Enforcing Mode Denial Triage & audit2allow Policy Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "hard",
+    "topic_key": "selinux_audit2allow_policy"
+  },
+  {
+    "question_id": "eval_q_057",
+    "question": "How do I troubleshoot and resolve Linux CUPS Print Queue Spooler Restart & LPD Protocol Repair in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "easy",
+    "topic_key": "linux_cups_spooler_repair"
+  },
+  {
+    "question_id": "eval_q_058",
+    "question": "How do I troubleshoot and resolve Linux Kernel Panic Diagnostics & Kdump Core Dump Extraction in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "medium",
+    "topic_key": "linux_kernel_panic_kdump"
+  },
+  {
+    "question_id": "eval_q_059",
+    "question": "How do I troubleshoot and resolve Linux SSSD Active Directory Integration & Kerberos PAM Auth in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "hard",
+    "topic_key": "linux_sssd_ad_integration"
+  },
+  {
+    "question_id": "eval_q_060",
+    "question": "How do I troubleshoot and resolve Linux Out-Of-Memory (OOM) Killer Diagnostics & Swap Tuning in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "linux_admin",
+    "difficulty": "easy",
+    "topic_key": "linux_oom_killer_swap_tuning"
+  },
+  {
+    "question_id": "eval_q_061",
+    "question": "How do I troubleshoot and resolve AWS EC2 Virtual Machine Security Group & Elastic IP Routing Drop in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "medium",
+    "topic_key": "aws_ec2_sg_routing_drop"
+  },
+  {
+    "question_id": "eval_q_062",
+    "question": "How do I troubleshoot and resolve AWS S3 Bucket Policy & IAM Access Denied Diagnostic Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "hard",
+    "topic_key": "aws_s3_iam_policy_fix"
+  },
+  {
+    "question_id": "eval_q_063",
+    "question": "How do I troubleshoot and resolve Azure Virtual Machine VNet Peering & NSG Traffic Drop Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "easy",
+    "topic_key": "azure_vm_vnet_nsg_drop"
+  },
+  {
+    "question_id": "eval_q_064",
+    "question": "How do I troubleshoot and resolve Docker Container OOMKilled Error & Resource Memory Limit Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "medium",
+    "topic_key": "docker_oomkilled_memory_fix"
+  },
+  {
+    "question_id": "eval_q_065",
+    "question": "How do I troubleshoot and resolve Kubernetes Pod CrashLoopBackOff & ImagePullBackOff Triage in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "hard",
+    "topic_key": "k8s_pod_crashloop_triage"
+  },
+  {
+    "question_id": "eval_q_066",
+    "question": "How do I troubleshoot and resolve Kubernetes Ingress NGINX Controller 502 Bad Gateway Debugging in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "easy",
+    "topic_key": "k8s_ingress_502_debugging"
+  },
+  {
+    "question_id": "eval_q_067",
+    "question": "How do I troubleshoot and resolve Terraform State File Lock (s3/dynamodb) & Drift Resolution in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "medium",
+    "topic_key": "terraform_state_lock_drift"
+  },
+  {
+    "question_id": "eval_q_068",
+    "question": "How do I troubleshoot and resolve GitHub Actions / Azure DevOps CI/CD Build Pipeline Failure Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "hard",
+    "topic_key": "cicd_build_pipeline_failure"
+  },
+  {
+    "question_id": "eval_q_069",
+    "question": "How do I troubleshoot and resolve AWS Route 53 Hosted Zone DNS Resolution & Alias Record Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "easy",
+    "topic_key": "aws_route53_alias_fix"
+  },
+  {
+    "question_id": "eval_q_070",
+    "question": "How do I troubleshoot and resolve Cloud Infrastructure Cost Optimization & Idle Asset Sanitization in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "cloud_devops",
+    "difficulty": "medium",
+    "topic_key": "cloud_cost_asset_sanitization"
+  },
+  {
+    "question_id": "eval_q_071",
+    "question": "How do I troubleshoot and resolve VMware ESXi 8.0 Host Disconnect from vCenter Server Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "hard",
+    "topic_key": "vmware_esxi_vcenter_disconnect"
+  },
+  {
+    "question_id": "eval_q_072",
+    "question": "How do I troubleshoot and resolve VMware Storage vMotion Datastore Lock & Orphaned VMDK Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "easy",
+    "topic_key": "vmware_vmotion_vmdk_lock"
+  },
+  {
+    "question_id": "eval_q_073",
+    "question": "How do I troubleshoot and resolve SAN iSCSI Multipathing (MPIO) Path Failover & NIC Teaming Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "medium",
+    "topic_key": "san_iscsi_mpio_failover"
+  },
+  {
+    "question_id": "eval_q_074",
+    "question": "How do I troubleshoot and resolve Veeam Backup & Replication Immutable Repository Corrupted Job Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "hard",
+    "topic_key": "veeam_immutable_backup_fix"
+  },
+  {
+    "question_id": "eval_q_075",
+    "question": "How do I troubleshoot and resolve VMware Virtual Machine Snapshot Consolidation Needed Error in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "easy",
+    "topic_key": "vmware_snapshot_consolidation"
+  },
+  {
+    "question_id": "eval_q_076",
+    "question": "How do I troubleshoot and resolve Fiber Channel Storage Switch Zoning & WWN Masking Diagnostic in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "medium",
+    "topic_key": "fc_storage_wwn_zoning"
+  },
+  {
+    "question_id": "eval_q_077",
+    "question": "How do I troubleshoot and resolve NFS Storage Datastore Latency Spikes & Mount Timeout Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "hard",
+    "topic_key": "nfs_datastore_latency_mount"
+  },
+  {
+    "question_id": "eval_q_078",
+    "question": "How do I troubleshoot and resolve Veeam Instant VM Recovery Host Datastore Mount Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "easy",
+    "topic_key": "veeam_instant_vm_recovery"
+  },
+  {
+    "question_id": "eval_q_079",
+    "question": "How do I troubleshoot and resolve Hyper-V VHDX Dynamic Expansion Failure & Compact Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "medium",
+    "topic_key": "hyperv_vhdx_compact_repair"
+  },
+  {
+    "question_id": "eval_q_080",
+    "question": "How do I troubleshoot and resolve Disaster Recovery Site Failover & RTO/RPO Orchestration Audit in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "virtualization_storage",
+    "difficulty": "hard",
+    "topic_key": "dr_site_failover_rto_rpo"
+  },
+  {
+    "question_id": "eval_q_081",
+    "question": "How do I troubleshoot and resolve Thunderbolt 4 / USB-C Docking Station Multi-Display Black Screen in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "easy",
+    "topic_key": "thunderbolt_dock_display_fix"
+  },
+  {
+    "question_id": "eval_q_082",
+    "question": "How do I troubleshoot and resolve Enterprise Multi-Function Printer (MFP) PCL6 Driver Crash in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "medium",
+    "topic_key": "mfp_printer_pcl6_crash"
+  },
+  {
+    "question_id": "eval_q_083",
+    "question": "How do I troubleshoot and resolve iOS Apple Business Manager (ABM) Intune MDM Enrollment Failure in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "hard",
+    "topic_key": "ios_abm_intune_enrollment"
+  },
+  {
+    "question_id": "eval_q_084",
+    "question": "How do I troubleshoot and resolve Android Enterprise MDM Work Profile Sync & Passcode Lock in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "easy",
+    "topic_key": "android_enterprise_mdm_sync"
+  },
+  {
+    "question_id": "eval_q_085",
+    "question": "How do I troubleshoot and resolve Enterprise VoIP SIP Phone 403 Forbidden Registration Failure in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "medium",
+    "topic_key": "voip_sip_403_registration"
+  },
+  {
+    "question_id": "eval_q_086",
+    "question": "How do I troubleshoot and resolve VoIP Real-Time Transport Protocol (RTP) One-Way Audio Triage in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "hard",
+    "topic_key": "voip_rtp_oneway_audio"
+  },
+  {
+    "question_id": "eval_q_087",
+    "question": "How do I troubleshoot and resolve Enterprise Laptop Battery Thermal Throttling & Calibration in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "easy",
+    "topic_key": "laptop_battery_thermal_calibration"
+  },
+  {
+    "question_id": "eval_q_088",
+    "question": "How do I troubleshoot and resolve USB 3.2 Gen 2 SuperSpeed Peripheral Bus Reset Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "medium",
+    "topic_key": "usb_superspeed_bus_reset"
+  },
+  {
+    "question_id": "eval_q_089",
+    "question": "How do I troubleshoot and resolve DisplayPort 1.4 HDCP Copy Protection Negotiation Drop in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "hard",
+    "topic_key": "displayport_hdcp_negotiation"
+  },
+  {
+    "question_id": "eval_q_090",
+    "question": "How do I troubleshoot and resolve Enterprise Biometric Fingerprint Reader Windows Hello Driver Fix in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "hardware_mobility",
+    "difficulty": "easy",
+    "topic_key": "biometric_windows_hello_fix"
+  },
+  {
+    "question_id": "eval_q_091",
+    "question": "How do I troubleshoot and resolve ITIL v4 Major Incident Management (MIM) War Room Orchestration in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "medium",
+    "topic_key": "itil_mim_warroom_orchestration"
+  },
+  {
+    "question_id": "eval_q_092",
+    "question": "How do I troubleshoot and resolve Service Level Agreement (SLA) P1 Critical Incident Escalation in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "hard",
+    "topic_key": "itil_sla_p1_incident_escalation"
+  },
+  {
+    "question_id": "eval_q_093",
+    "question": "How do I troubleshoot and resolve IT Asset Lifecycle Procurement & NIST SP 800-88 Disk Sanitization in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "easy",
+    "topic_key": "itil_asset_sanitization_nist80088"
+  },
+  {
+    "question_id": "eval_q_094",
+    "question": "How do I troubleshoot and resolve IT Change Management Emergency Advisory Board (CAB) Approval in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "medium",
+    "topic_key": "itil_emergency_cab_approval"
+  },
+  {
+    "question_id": "eval_q_095",
+    "question": "How do I troubleshoot and resolve IT Service Desk Knowledge Base Article Maintenance Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "hard",
+    "topic_key": "itil_kb_article_maintenance"
+  },
+  {
+    "question_id": "eval_q_096",
+    "question": "How do I troubleshoot and resolve Vendor SLA Support Escalation & Executive Support Bridge in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "easy",
+    "topic_key": "vendor_sla_support_escalation"
+  },
+  {
+    "question_id": "eval_q_097",
+    "question": "How do I troubleshoot and resolve IT Onboarding Hardware & RBAC Identity Provisioning Protocol in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "medium",
+    "topic_key": "it_onboarding_rbac_provisioning"
+  },
+  {
+    "question_id": "eval_q_098",
+    "question": "How do I troubleshoot and resolve IT Offboarding Immediate Credential Revocation & Asset Recovery in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "hard",
+    "topic_key": "it_offboarding_credential_revocation"
+  },
+  {
+    "question_id": "eval_q_099",
+    "question": "How do I troubleshoot and resolve Enterprise Software License Audit Compliance & Usage Reclamation in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "easy",
+    "topic_key": "software_license_compliance_audit"
+  },
+  {
+    "question_id": "eval_q_100",
+    "question": "How do I troubleshoot and resolve IT Disaster Recovery Communication Plan & Post-Incident Review in an enterprise network?",
+    "expected_source": "pdfs/it_support_knowledge_base_1000pages.pdf",
+    "expected_markdown": "markdown/it_support_knowledge_base_1000pages.md",
+    "domain": "itil_servicedesk",
+    "difficulty": "medium",
+    "topic_key": "it_dr_pir_communication_plan"
+  }
+]

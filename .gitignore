@@ -1,0 +1,30 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Caches & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Build & OS Files
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
